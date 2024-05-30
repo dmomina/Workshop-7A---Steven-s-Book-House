@@ -1,0 +1,104 @@
+.bg {
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(./assets.img/1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.image-2,
+.image-3,
+.image-4,
+.image-5,
+.image-6 {
+    width: 20%;
+    padding: 13%;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: #123C69;
+    font-size: 500%;
+}
+
+h2 {
+    color: #116466;
+    font-size: 350%;
+}
+
+h3 {
+    color: #AC3B61;
+    font-size: 250%;
+}
+
+p {
+    color: black;
+}
+
+.box-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box-flex > div {
+    height: 200px;
+    width: 650px;
+    border: 5px solid #bab2b5;
+    margin-bottom: 2%;
+    background-color: #edc7b7;
+    opacity: 80%;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5 {
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.space {
+    margin-right: 2%;
+    width: 25%; 
+    padding: 0.6%; 
+    margin-top: 2%;
+    margin-bottom: 1%;
+    resize: vertical;
+}
+
+.space-1 {
+    margin-right: 20px;
+    width: 100%; 
+    padding: 80px; 
+    margin-top: 1%; 
+    margin-bottom: 2%; 
+    resize: vertical;
+}
+.fname,
+.lname,
+.email,
+.feedback {
+    color: #e5c454;
+}
+
+.submit {
+    background-color: #656565;
+    color: #AC3B61;
+}
+
+footer > a {
+    display: block;
+}
+
+@media (max-width: 2000px) {.fname, .lname, .email, .feedback {
+    display: block;
+}}
